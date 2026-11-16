@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Zelar",
+    "slug": "zelar-novo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/zelar-icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF",
+        "foregroundImage": "./assets/zelar-icon.png"
+      },
+      "package": "com.jivers.zelarnovo"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7b2608c3-e9ad-46a9-8527-fb3982341168"
+      }
+    }
+  },
+  "web": {
+    "favicon": "./assets/favicon.png"
+  },
+  "plugins": [
+    "@react-native-community/datetimepicker"
+  ]
+}
